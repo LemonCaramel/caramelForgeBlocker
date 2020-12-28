@@ -2,6 +2,7 @@
 
 [![라이선스](https://img.shields.io/github/license/LemonCaramel/caramelForgeBlocker)](https://github.com/LemonCaramel/caramelForgeBlocker/blob/master/LICENSE)
 [![마지막 릴리즈](https://img.shields.io/github/v/release/LemonCaramel/caramelForgeBlocker)](https://caramel.moe/)
+[![GitHub forks](https://img.shields.io/github/forks/LemonCaramel/caramelForgeBlocker)](https://github.com/LemonCaramel/caramelForgeBlocker/network)
 [![이슈](https://img.shields.io/github/issues/LemonCaramel/caramelForgeBlocker)](https://github.com/LemonCaramel/caramelForgeBlocker/issues)
 [![빌드 상태](https://travis-ci.com/LemonCaramel/caramelForgeBlocker.svg?branch=master)](https://travis-ci.com/LemonCaramel/caramelForgeBlocker)
 [![CodeFactor](https://www.codefactor.io/repository/github/lemoncaramel/caramelforgeblocker/badge/master)](https://www.codefactor.io/repository/github/lemoncaramel/caramelforgeblocker/overview/master)
