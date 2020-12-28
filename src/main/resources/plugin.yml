@@ -1,0 +1,12 @@
+name: caramelForgeBlocker
+version: ${project.version}
+main: moe.caramel.forgeblocker.Main
+authors: [ LemonCaramel ]
+depend: [ ProtocolLib ]
+description: Unsafe Forge Blocking Plugin.
+website: https://caramel.moe
+
+commands:
+  caramelforgeblocker:
+    aliases: [ caramelforge, cfb ]
+    description: caramelForgeBlocker Main Command

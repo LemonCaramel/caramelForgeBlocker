@@ -1,0 +1,17 @@
+# 절대 건들지 마세요.
+# Never touch me.
+config-version: 1
+
+# 차단되었을 때 출력 될 추방 메시지입니다.
+# This is a deportation message that will be printed when blocked.
+blocker-kick-message: '&c해당 클라이언트는 서버에 접속할 수 없습니다.'
+
+# 'caramel.blocker.bypass' 권한을 가지고 있는 플레이어의 감시를 우회합니다. (기본 값: true)
+# Bypasses monitoring of players with 'caramel.blocker.bypass' permission. (default: true)
+# 단, "blocker-check-packet" 옵션이 활성화되어있는 경우, 이 옵션은 사실상 무효가 됩니다.
+# However, if the "blocker-check-packet" option is enabled, this option is effectively disabled.
+blocker-permission-bypass: true
+
+# 패킷을 사용하여 Forge 클라이언트 사용 여부를 확인합니다. (기본 값: true)
+# Use a packet to check whether a Forge client is being used. (Default: true)
+blocker-check-packet: true
