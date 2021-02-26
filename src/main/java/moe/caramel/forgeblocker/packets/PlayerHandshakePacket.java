@@ -25,9 +25,8 @@ public class PlayerHandshakePacket extends PacketAdapter {
         PacketContainer packet = event.getPacket();
         if (packet.getProtocols().read(0) == PacketType.Protocol.LOGIN) {
             String host = packet.getStrings().read(0);
-            if (host.contains(Constants.HOSTNAME_FML) || host.contains(Constants.HOSTNAME_FML2)) {
+            if (host.contains(Constants.HOSTNAME_FML) || host.contains(Constants.HOSTNAME_FML2))
                 plugin.kickPlayer.add(Objects.requireNonNull(event.getPlayer().getAddress()).getAddress());
-            }
         }
     }
 
