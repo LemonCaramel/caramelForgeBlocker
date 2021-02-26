@@ -33,6 +33,4 @@
 
 라이선스
 --------
- - AGPL License를 사용하며, 자세한 사항은 [LICENSE](https://github.com/LemonCaramel/caramelForgeBlocker/blob/master/LICENSE) 를 참조해주세요.
-   - AGPL License는 서버 소프트웨어로 사용되는 경우에도 코드의 수정이 없더라도 반드시 소스 코드 및 사용 여부를 공개해야 합니다.
-   - 코드를 수정 후 네트워크 상에서 사용될 경우 수정 한 소스 코드를 모두 AGPL 라이선스로 공개해야 합니다.
+ - GPL License를 사용하며, 자세한 사항은 [LICENSE](https://github.com/LemonCaramel/caramelForgeBlocker/blob/master/LICENSE) 를 참조해주세요.
