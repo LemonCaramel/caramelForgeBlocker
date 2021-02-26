@@ -6,8 +6,11 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.TabExecutor;
+import org.bukkit.util.StringUtil;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 public class MainCommand implements CommandExecutor, TabExecutor {
@@ -58,7 +61,12 @@ public class MainCommand implements CommandExecutor, TabExecutor {
     @Override
     public List<String> onTabComplete(CommandSender sender, Command command, String alias, String[] args) {
         if (!sender.hasPermission(Constants.PERM_COMMAND_PLUGIN)) return null;
-        if (args.length == 1) return Arrays.asList("reload", "toggle");
+        if (args.length == 1) {
+            final List<String> completions = new ArrayList<>();
+            StringUtil.copyPartialMatches(args[0], Arrays.asList("reload", "toggle"), completions);
+            Collections.sort(completions);
+            return completions;
+        }
         else return null;
     }
 
